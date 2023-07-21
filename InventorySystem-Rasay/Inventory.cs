@@ -5,10 +5,10 @@ using InventorySystem_Rasay;
 using System;
 using System.Collections.Generic;
 
-class Program
+class Inventory
 {
     static string pinCode = "0221";
-    static Inventory inventory = new Inventory();
+    static InventorySystem_Rasay.Inventory inventory = new InventorySystem_Rasay.Inventory();
 
     public static void Main(string[] args)
     {
